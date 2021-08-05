@@ -1,0 +1,219 @@
+/* You can add custom CSS and override boostrap styles in this file.  Remember, bootstrap is just CSS at the end of the day! */
+body {
+  margin: none;
+  padding: 0;
+  position: relative;
+  background: rgb(2,0,36);
+  font-size: 16px; 
+}
+
+.hero-content {
+  height: min(75vh), max(100vh);
+  width: 100vw;
+  padding: 0;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  /* I couldn't for the life of me figure out why my hero img isn't functioning properly. Most of my time was spent on this, with no true solution */
+}
+
+#fixed-img {
+  display: block;
+  padding: 0;
+  margin-top: none;
+  background-size: cover, cover;
+  background-position: center, center;
+  background-repeat: no-repeat;
+}
+
+#profile-img {
+  display: block;
+  width: 25%;
+  margin: auto;
+  margin-top: -45%;
+}
+
+#profile-img img {
+  border: 5px solid #00004c;
+  border-radius: 50%;
+}
+
+h2 {
+  color: #9dc09d;
+  font-weight: 700;
+  text-shadow: 2px 2px #000099;
+}
+
+.tagline {
+  position: relative;
+  color: #bfbfbf;
+}
+
+.navbar {
+  top: 0;
+  position: sticky;
+  background: #00004c;
+  box-shadow: 0 8px 8px -8px #bfbfbf;
+}
+
+.brand-img {
+  display: inline-block;
+  clip-path: circle(20px at 50% 50%);
+  border-radius: 50%;
+  overflow: hidden;
+  top: 10px;
+}
+
+.brand-img:hover {
+  transform: rotateY(180deg);
+  /* DANCING WOLF */
+}
+
+.navbar-nav li {
+  padding: .75rem .50rem;
+}
+
+h3 {
+  text-align: center;
+  color: #fff;
+}
+
+#auron {
+  border-radius: 25%;
+  border: solid 2px #00004c;
+}
+
+#mission-section, #inspiration-section {
+  color: #bfbfbf;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,96,10,1) 49%);
+  text-shadow: 2px 2px #000;
+}
+
+#skills-section, #contact-section {
+  color: #bfbfbf;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,96,10,1) 49%);
+  text-shadow: 2px 2px #000;
+}
+
+/* My sad attempt at vertically centering the p */
+
+#attempt {
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#attempt p {
+  margin: 0;
+}
+
+/* I think I did it? */
+
+section {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  position: relative;
+  font-size: clamp(1rem, 1.8vw, 2.5rem);
+}
+
+hr {
+  margin: 25px 0;
+  height: 5px;
+  background: black;
+  background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.98) 2%, rgba(0, 0, 0, 1) 90%);
+}
+
+.greyscale {
+  filter: grayscale(60%);
+}
+
+span {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.carousel {
+  display: inline-block;
+  width: 75%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.overlay {
+  position: relative;
+}
+
+.overlay:after {
+  content: " ";
+  z-index: 10;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+h5 {
+  position: relative;
+  color: #bfbfbf;
+  z-index: 1000;
+}
+
+.carousel p a {
+  text-shadow: 1px 1px #000;
+  color: #bfbfbf;
+}
+
+.icon {
+  transition-duration: 1s;
+}
+
+.icon-white {
+  color: white;
+}
+
+.icon-purple {
+  color: #5c16c5;
+}
+
+.icon-blue-white {
+  color: #0073b1;
+}
+
+.icon-grey {
+  color: darkgrey;
+}
+
+.icon-lg {
+  font-size: 5vw;
+}
+
+.icon-white:hover {
+  color: grey;
+  transform: rotate(0.25turn);
+}
+
+.icon-purple:hover {
+  color: purple;
+  transform: rotate(0.5turn);
+}
+
+.icon-blue-white:hover {
+  color: blue;
+  transform: rotate(0.75turn);
+}
+
+.icon-grey:hover {
+  color: rgba(49, 48, 29, 0.75);
+  transform: rotate(1turn);
+}
+
+footer {
+  color: #bfbfbf;
+  vertical-align: center; 
+  text-align: center;
+}
