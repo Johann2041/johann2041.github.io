@@ -13,7 +13,6 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
-    <!-- Custom styles (these can extend bootstrap which is JUST CSS!) -->
     <link href="style.css" rel="stylesheet" type="text/css" />
 
   </head>
