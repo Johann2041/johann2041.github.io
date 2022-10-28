@@ -6,12 +6,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     
-    <!-- Remember to replace this with your title! -->
     <title>Aja Black Portfolio|Not Up to my Perfectionist Standards</title>
     
-    <!-- Link for boostrap from: 
-    https://getbootstrap.com/docs/5.0/getting-started/introduction -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
@@ -22,11 +19,7 @@
   </head>
 
   <body data-bs-spy="scroll" data-bs-target="#scrollSpy">
-
-  <!-- Navbar: Skip this and start with the hero section. When You're ready to return start by copy/pasting this snippet:
-  https://getbootstrap.com/docs/5.0/components/navbar/#nav 
-  -->
-  <!-- PASTE NAVBAR CODE TO CUSTOMIZE -->
+    
   <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
     <div class="container-fluid" id="scrollSpy">
       <a class="navbar-brand" href="#home">
@@ -55,10 +48,6 @@
       </div>
     </div>
   </nav>
-
-  <div id="useless">
-    <!-- I thought this would work, but maybe not -->
-  </div>
   
   <div id="hero-section">
     <div id="home">
@@ -185,7 +174,7 @@
             <a href="https://www.twitch.tv/johann2041" target="_blank"><span class="bi bi-twitch icon-purple icon-lg icon"></span></a>
           </div>
           <div class="col">
-            <a href="linkedin.com/in/jasmine-steidl-b511b7200" target="_blank"><span class="bi bi-linkedin icon-blue-white icon-lg icon" id="linkedin"></span></a>
+            <a href="https://www.linkedin.com/in/jasmine-black-b511b7200" target="_blank"><span class="bi bi-linkedin icon-blue-white icon-lg icon" id="linkedin"></span></a>
           </div>
           <div class="col">
             <a href="mailto: sentbyravens2012@gmail.com" target="_blank"><span class="bi bi-envelope-fill icon-grey icon-lg icon" id="email"></span></a>
@@ -200,12 +189,12 @@
     <h6>&copy; Aja Black 2021</h6>
   </footer>
 
-  <!-- Bootstrap Javascript -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--Bootstrap JavaScript-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>
 
-  body {
+body {
   margin: none;
   padding: 0;
   position: relative;
