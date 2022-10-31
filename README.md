@@ -185,7 +185,7 @@
   </section>
 
   <footer>
-    <h6>&copy; Aja Black 2021</h6>
+    <h6>&copy; Aja Black 2022</h6>
   </footer>
 
     <!--Bootstrap JavaScript-->
@@ -210,17 +210,18 @@
     background-size: cover;
 }
 
-#fixed-img {
+<!-- #fixed-img {
     display: block;
     padding: 0;
     margin-top: none;
     background-size: cover, cover;
     background-position: center, center;
     background-repeat: no-repeat;
-}
+} -->
   
 #profile-img {
-    display: block;
+    display: flex;
+    justify-content: center;
     width: 25%;
     margin: auto;
     margin-top: -45%;
