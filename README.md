@@ -51,13 +51,13 @@
   <div id="hero-section">
     <div id="home">
       <div class="hero-content">
-        <div id="fixed-img">
-          <img src="img/star.jpg" width="100%" alt="shooting star over trees looming in the night sky">
-        </div>
+        <!-- <div id="fixed-img">
+          <img src="img/mountain.jpg" width="100%" alt="shooting star over trees looming in the night sky">
+        </div> -->
         <div id="profile-img">
           <img src="https://i.imgur.com/DoUDvVx.jpeg" width="100%" alt="Mira the Cute Litte Doofus"> 
         </div>
-        <h2>Aja Steidl</h2>
+        <h2>Aja Black</h2>
         <p class="tagline"><em>There's Method to Madness</em></p>
         <br>
       </div>

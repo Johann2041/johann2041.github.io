@@ -81,6 +81,9 @@ h3 {
     border: solid 2px #00004c;
 }
 
+#fixed-img {
+    position: relative;
+}
 
 
 /* text-align: center;
