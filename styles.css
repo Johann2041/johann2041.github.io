@@ -1,5 +1,5 @@
-body {
-    margin: none;
+ body {
+    margin: auto;
     padding: 0;
     position: relative;
     background: rgb(2,0,36);
@@ -7,43 +7,54 @@ body {
 }
   
 .fixed-bg {
-    background-image: url("img/star.jpg");
+    background-image: url("background3.jpg");
     min-height: 700px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-#fixed-img {
-    display: block;
-    padding: 0;
-    margin-top: none;
-    background-size: cover, cover;
-    background-position: center, center;
-    background-repeat: no-repeat;
-}
   
 #profile-img {
-    display: block;
-    width: 25%;
+    display: flexbox;
+    justify-content: center;
     margin: auto;
-    margin-top: -45%;
+    width: 30%;
+    padding-top: 8px;
+    overflow: hidden;
+    height: auto;
 }
   
 #profile-img img {
     border: 5px solid #00004c;
-    border-radius: 50%;
+    border-radius: 100%;
+    opacity: 1;
+}
+
+.middle {
+    opacity: 1;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
   
-h2 {
+h1 {
     color: #9dc09d;
     font-weight: 700;
     text-shadow: 2px 2px #000099;
 }
   
 .tagline {
+    opacity: 1;
     position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
     color: #bfbfbf;
 }
   
@@ -77,19 +88,140 @@ h3 {
 }
   
 #auron {
-    border-radius: 25%;
+    border-radius: 50%;
     border: solid 2px #00004c;
 }
 
-#fixed-img {
-    position: relative;
+#mission-section, #inspiration-section {
+  color: #bfbfbf;
+  <!-- background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,96,10,1) 49%); -->
+  text-shadow: 2px 2px #000;
 }
 
+#skills-section, #contact-section {
+  color: #bfbfbf;
+  <!-- background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,96,10,1) 49%); -->
+  text-shadow: 2px 2px #000;
+}
 
-/* text-align: center;
-  color: azure;
-  text-shadow: 1px 1px 2px black;
-  padding: 1em;
-  margin: auto;
-  background: radial-gradient(circle, rgba(4,4,4,0.9) 0%, rgba(28,111,3,0.1) 100%);
-  box-shadow: 0 30px 40px rgba(0,0,0,0.3); */
+#attempt {
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#attempt p {
+  margin: 0;
+}
+
+/* I think I did it? */
+
+section {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  position: relative;
+  font-size: clamp(1rem, 1.8vw, 2.5rem);
+}
+
+hr {
+  margin: 25px 0;
+  height: 5px;
+  background: black;
+  <!-- background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.98) 2%, rgba(0, 0, 0, 1) 90%); -->
+}
+
+.greyscale {
+  filter: grayscale(60%);
+}
+
+span {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.carousel {
+  display: inline-block;
+  width: 75%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.overlay {
+  position: relative;
+}
+
+.overlay:after {
+  content: " ";
+  z-index: 10;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+h5 {
+  position: relative;
+  color: #bfbfbf;
+  z-index: 1000;
+}
+
+.carousel p a {
+  text-shadow: 1px 1px #000;
+  color: #bfbfbf;
+}
+
+.icon {
+  transition-duration: 1s;
+}
+
+.icon-white {
+  color: white;
+}
+
+.icon-purple {
+  color: #5c16c5;
+}
+
+.icon-blue-white {
+  color: #0073b1;
+}
+
+.icon-grey {
+  color: darkgrey;
+}
+
+.icon-lg {
+  font-size: 5vw;
+}
+
+.icon-white:hover {
+  color: grey;
+  transform: rotate(0.25turn);
+}
+
+.icon-purple:hover {
+  color: purple;
+  transform: rotate(0.5turn);
+}
+
+.icon-blue-white:hover {
+  color: blue;
+  transform: rotate(0.75turn);
+}
+
+.icon-grey:hover {
+  color: rgba(49, 48, 29, 0.75);
+  transform: rotate(1turn);
+}
+
+footer {
+  color: #bfbfbf;
+  vertical-align: center; 
+  text-align: center;
+}
+  
