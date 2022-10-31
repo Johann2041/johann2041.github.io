@@ -224,7 +224,7 @@
     justify-content: center;
     width: 25%;
     margin: auto;
-    margin-top: -45%;
+    <!-- margin-top: -45%; -->
 }
   
 #profile-img img {
@@ -273,117 +273,21 @@ h3 {
 }
   
 #auron {
-    border-radius: 25%;
+    border-radius: 35%;
     border: solid 2px #00004c;
-}
-
-
-
-/* text-align: center;
-  color: azure;
-  text-shadow: 1px 1px 2px black;
-  padding: 1em;
-  margin: auto;
-  background: radial-gradient(circle, rgba(4,4,4,0.9) 0%, rgba(28,111,3,0.1) 100%);
-  box-shadow: 0 30px 40px rgba(0,0,0,0.3); */
-<!-- 
-body {
-  margin: none;
-  padding: 0;
-  position: relative;
-  background: rgb(2,0,36);
-  font-size: 16px; 
-}
-
-.hero-content {
-  height: min(75vh), max(100vh);
-  width: 100vw;
-  padding: 0;
-  text-align: center;
-  margin: auto;
-  position: relative;
-  /* I couldn't for the life of me figure out why my hero img isn't functioning properly. Most of my time was spent on this, with no true solution */
-}
-
-#fixed-img {
-  display: block;
-  padding: 0;
-  margin-top: none;
-  background-size: cover, cover;
-  background-position: center, center;
-  background-repeat: no-repeat;
-}
-
-#profile-img {
-  display: block;
-  width: 25%;
-  margin: auto;
-  margin-top: -45%;
-}
-
-#profile-img img {
-  border: 5px solid #00004c;
-  border-radius: 50%;
-}
-
-h2 {
-  color: #9dc09d;
-  font-weight: 700;
-  text-shadow: 2px 2px #000099;
-}
-
-.tagline {
-  position: relative;
-  color: #bfbfbf;
-}
-
-.navbar {
-  top: 0;
-  position: sticky;
-  background: #00004c;
-  box-shadow: 0 8px 8px -8px #bfbfbf;
-}
-
-.brand-img {
-  display: inline-block;
-  clip-path: circle(20px at 50% 50%);
-  border-radius: 50%;
-  overflow: hidden;
-  top: 10px;
-}
-
-.brand-img:hover {
-  transform: rotateY(180deg);
-  /* DANCING WOLF */
-}
-
-.navbar-nav li {
-  padding: .75rem .50rem;
-}
-
-h3 {
-  text-align: center;
-  color: #fff;
-}
-
-#auron {
-  border-radius: 25%;
-  border: solid 2px #00004c;
 }
 
 #mission-section, #inspiration-section {
   color: #bfbfbf;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,96,10,1) 49%);
+  <!-- background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,96,10,1) 49%); -->
   text-shadow: 2px 2px #000;
 }
 
 #skills-section, #contact-section {
   color: #bfbfbf;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,96,10,1) 49%);
+  <!-- background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,96,10,1) 49%); -->
   text-shadow: 2px 2px #000;
 }
-
-/* My sad attempt at vertically centering the p */
 
 #attempt {
   height: 10em;
@@ -410,7 +314,7 @@ hr {
   margin: 25px 0;
   height: 5px;
   background: black;
-  background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.98) 2%, rgba(0, 0, 0, 1) 90%);
+  <!-- background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.98) 2%, rgba(0, 0, 0, 1) 90%); -->
 }
 
 .greyscale {
@@ -504,5 +408,5 @@ footer {
   color: #bfbfbf;
   vertical-align: center; 
   text-align: center;
-} -->
+}
   
