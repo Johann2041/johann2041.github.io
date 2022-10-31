@@ -1,4 +1,4 @@
-# My sad attempt at making a portfolio. It's a work in progress.
+ <!-- My sad attempt at making a portfolio. It's a work in progress. -->
 
 <!DOCTYPE html>
 <html>
@@ -13,7 +13,7 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" />
 
   </head>
 
@@ -48,21 +48,19 @@
     </div>
   </nav>
   
-  <div id="hero-section">
-    <div id="home">
-      <div class="hero-content">
-        <!-- <div id="fixed-img">
-          <img src="img/mountain.jpg" width="100%" alt="shooting star over trees looming in the night sky">
-        </div> -->
-        <div id="profile-img">
-          <img src="https://i.imgur.com/DoUDvVx.jpeg" width="100%" alt="Mira the Cute Litte Doofus"> 
+
+  <div>
+    <div class="fixed-bg">
+      <div id="profile-img">
+        <img src="https://i.imgur.com/DoUDvVx.jpeg" width="100%" alt="Mira the Cute Litte Doofus">
+        <div class="middle">
+          <h1>Aja Black</h1>
         </div>
-        <h2>Aja Black</h2>
-        <p class="tagline"><em>There's Method to Madness</em></p>
-        <br>
       </div>
+      <div class="tagline"><em>There's Method to Madness</em></div>
     </div>
   </div>
+
 
   <section class="container-fluid" id="mission-section">
     <div id="mission">
@@ -192,9 +190,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>
-  
-  body {
-    margin: none;
+
+ body {
+    margin: auto;
     padding: 0;
     position: relative;
     background: rgb(2,0,36);
@@ -202,44 +200,54 @@
 }
   
 .fixed-bg {
-    background-image: url("img/star.jpg");
+    background-image: url("background3.jpg");
     min-height: 700px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-<!-- #fixed-img {
-    display: block;
-    padding: 0;
-    margin-top: none;
-    background-size: cover, cover;
-    background-position: center, center;
-    background-repeat: no-repeat;
-} -->
   
 #profile-img {
-    display: flex;
+    display: flexbox;
     justify-content: center;
-    width: 25%;
     margin: auto;
-    <!-- margin-top: -45%; -->
+    width: 30%;
+    padding-top: 8px;
+    overflow: hidden;
+    height: auto;
 }
   
 #profile-img img {
     border: 5px solid #00004c;
-    border-radius: 50%;
+    border-radius: 100%;
+    opacity: 1;
+}
+
+.middle {
+    opacity: 1;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
   
-h2 {
+h1 {
     color: #9dc09d;
     font-weight: 700;
     text-shadow: 2px 2px #000099;
 }
   
 .tagline {
+    opacity: 1;
     position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
     color: #bfbfbf;
 }
   
@@ -273,7 +281,7 @@ h3 {
 }
   
 #auron {
-    border-radius: 35%;
+    border-radius: 50%;
     border: solid 2px #00004c;
 }
 
